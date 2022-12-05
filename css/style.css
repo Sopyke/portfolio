@@ -137,6 +137,7 @@ section{
 	font-weight: 600;
 	transition: all .45s ease;
 	border: solid var(--main-color) 2px;
+	font-size: 10px;
 }
 .btn:hover{
 	transform: scale(0.9);
@@ -153,6 +154,8 @@ section{
 	letter-spacing: 1px;
 	font-weight: 600;
 	transition: all .45s ease;
+	font-size: 10px;
+
 }
 .btn2:hover{
 	transform: scale(0.9);

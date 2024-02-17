@@ -91,7 +91,7 @@ section{
 	z-index: 1;
 }
 
-video {
+#backVideo {
 	position: absolute;
 	z-index: -100;
 	display: flex;
@@ -149,12 +149,12 @@ video {
 	padding: 12px 28px;
 	background: var(--main-color);
 	border-radius: 30px;
-	color: var(--text-color);
+	color: var(--text-);
 	font-size: 0.8rem;
 	letter-spacing: 1px;
 	font-weight: 600;
 	transition: all .45s ease;
-	border: solid var(--main-color) 2px;
+	border: solid var(--text-color) 2px;
 	font-size: 10px;
 }
 .btn:hover{
@@ -251,6 +251,7 @@ header.sticky{
 .s-icons i{
 	font-size: 32px;
 	margin-bottom: 20px;
+	color: #ffbd39;
 }
 .box h3{
 	font-size: 24px;
